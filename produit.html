@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Raphael Chauvat">
+    <meta name="description" content='Product page details. Learning web development @ "Openclassrooms". Project number 5. Create an online store.'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orinoco</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="cart.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita:ital@1&display=swap" rel="stylesheet">
+</head>
+    <header>
+        <h1 class=" half_left half centering"> <a href="index.html">Orinoco</a> </h1>
+        <div class="half_right half centering panier size_two">  <a href="panier.html">Panier</a> 
+            <div class="compteur_panier centering shadow_half"> <span id="counter"></span></div>
+        </div>
+    </header> 
+    <main>        
+        <div class="full" id="fiche_details">            
+            <h2 class="centering full">DETAILS</h2>            
+            <div class="flex" id="name_title">
+                <h3 class="third">NAME :</h3>                
+            </div>            
+            <div class="flex" id="image">   
+                <h3 class="third">PREViEW :</h3>                 
+            </div>            
+            <div class="flex" id="description"> 
+                <h3 class=" third">DETAILS :</h3>                 
+            </div>            
+            <div class="flex" id="price"> 
+                <h3 class="third">PRICE :</h3>                 
+            </div>
+            <div class="flex" id="options">  
+                <h3 class="third">OPTIONS:</h3> 
+                <label id="label_options" for="optionstochoose">Choose your Varnish</label>
+                <select class="two_third" name="options" id="optionstochoose"></select>
+            </div>            
+        </div>        
+    </main>    
+    <section>
+        <button class="add_to_cart shadow" id="add_to_cart">buy</button>
+    </section>    
+    <footer>
+        <p class="size_three" >FOOTER</p>
+    </footer>
+    <script src="produit.js"></script>    
+</body>
+</html>

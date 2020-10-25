@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Raphael Chauvat">
+    <meta name="description" content='Cart page. Learning web development @ "Openclassrooms". Project number 5. Create an online store.'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orinoco</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="cart.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>    
+    <header>
+        <h1 class=" half_left half centering"> <a href="index.html">Orinoco</a> </h1>
+        <div class="half_right half centering panier size_two">  <a href="panier.html">Panier</a> 
+            <div class="compteur_panier centering shadow_half"> <span id="counter"></span></div>
+        </div>
+    </header>    
+    <main>
+        <section id="your_cart">
+            <h2>your cart</h2>
+            <div id="cart_container">
+                <div id="cart_for_name"></div>
+                <div id="cart_for_prices"></div>
+            </div>            
+            <div id="cart_container_total">
+                <div id="title_total">TOTAL</div>
+                <div id="total"></div>
+            </div>                           
+        </section>        
+        <section id="form_buy">   
+            <form data-tooltip="you need to fill all the boxes" id="form_adress">
+                <label for="surname">Name:</label> 
+                <input type="text" id="surname" name="surname" placeholder="3 to 30 char."  maxlength="30" onchange="checkSurname()"/>
+                <label for="lastname">Lastname:</label>
+                <input type="text" id="lastname" name="lastname" placeholder="3 to 30 char." maxlength="30" onchange="checkLastName()"/>
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" placeholder="3 to 30 char." maxlength="30" onchange="checkAddress()"/>
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" placeholder="3 to 30 char." maxlength="30" onchange="checkCity()"/>
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" placeholder="valid email required" maxlength="30" onchange="checkEmail()">
+                <div  class="submit">
+                    <button type="reset">REsET</button>
+                </div>
+            </form>
+            <div id="button_buy_container">
+                <button id="button_buy" onclick="send()">BUY</button>
+            </div>
+        </section>        
+    </main>    
+    <footer>
+        <p class=" centerd transparent_total size_three" >FOOTER</p>
+    </footer>
+    <script src="panier.js"></script>    
+</body>
+</html>

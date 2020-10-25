@@ -1,4 +1,4 @@
-Openclassrooms, parcours Développeur Web.
+<h1>Openclassrooms, parcours Développeur Web.<h1>
 
 Projet numéro 5: construire un site de e-commerce. (Orinoco)
 

@@ -4,6 +4,6 @@
 
 Attention: il n'y a que la partie frontend dans ce repository.
 
-Pour la partie backend, suivent le lien suivant:
+Pour la partie backend, suivre le lien suivant:
 
 https://github.com/OpenClassrooms-Student-Center/JWDP5.

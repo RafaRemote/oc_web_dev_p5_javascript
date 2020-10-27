@@ -234,3 +234,17 @@ function showError(){
   h2.innerHTML = "oops, something went wrong!";
   main.append(h2);
 }
+
+//remove the items in the cart
+
+function removeITems() {
+  let cart = document.getElementById("your_cart");
+  cart.remove();
+  localStorage.clear();
+  let body = document.querySelector("body");
+  body.style.background = "rgba(0,0,0,90%)";
+  setTimeout(() => { alert("nothing more in the cart, you are going to be redirected to the homepage"), 2000; }); // let something appear on the screen with the zero counter in red, instead of a plain white aggressive page
+  window.location.href = 'index.html';
+  window.open(window.location.href);
+  
+}

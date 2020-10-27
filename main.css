@@ -36,6 +36,9 @@ body {
     
 }
 
+#reset_cart {
+    margin: 3rem auto;
+}
 [data-tooltip]:hover::after {
     content: attr(data-tooltip);
     position: absolute;

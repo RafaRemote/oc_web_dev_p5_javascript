@@ -1,9 +1,13 @@
-<h1>Openclassrooms, parcours Développeur Web.</h1>
+# OpenClassrooms / Web Developer Path
 
-<h2>Projet numéro 5: construire un site de e-commerce. (Orinoco)</h2>
+## Project number 5: Build an e-commerce site in JavaScript
 
-Attention: il n'y a que la partie frontend dans ce repository.
+Skills:
 
-Pour la partie backend, suivre le lien suivant:
+- interact with web service with JavaScript
+- handle JavaScript events
+- validate data from external sources
+- create test plan for an application
 
-https://github.com/OpenClassrooms-Student-Center/JWDP5.
+This repo is about the frontend part of the website, 
+for the backend part, follow this link: https://github.com/OpenClassrooms-Student-Center/JWDP5

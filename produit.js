@@ -82,7 +82,7 @@ let addselected = (e) => {
   }
 };
 
-// below: adding an event listener to tht element button
+// below: adding an event listener to the element button
 
 let btn = document.querySelector('button');
 

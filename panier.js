@@ -2,7 +2,7 @@
 
 if (localStorage.length === 0) {goBackToHomePage()}
 
-// this function will be call if there is something in the loccalstorage
+// this function will be call if there is something in the localstorage
 let checkCartContent = async () => { if( localStorage.length > 0) {console.log("cart not empty")} };
 
 // updating the counter of products (top right of the window)
